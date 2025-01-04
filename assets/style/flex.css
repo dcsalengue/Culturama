@@ -43,6 +43,21 @@
     max-width: 400px;
 }
 
+/* agenda */
+.agenda__lista {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 1.5rem;
+    justify-content: center;
+}
+
+.agenda__item {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
 @media (min-width: 720px) {
 
     /* menu */
@@ -58,8 +73,13 @@
 
     /* eventos */
     .eventos__lista {
-
         justify-content: end;
+    }
+
+    /* agenda */
+    .agenda__lista {
+        justify-content: end;
+        column-gap: 1.5rem;
     }
 }
 
@@ -90,4 +110,6 @@
     .menu__item:nth-child(5) {
         order: 2;
     }
+
+
 }

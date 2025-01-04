@@ -120,6 +120,13 @@
     .menu__item:nth-child(5) {
         order: 2;
     }
+}
 
+@media (min-width:1440px) {
+
+    .categorias__item,
+    .categorias__imagem {
+        flex-grow: 1;
+    }
 
 }
